@@ -1,5 +1,5 @@
 {
-  "name": "react_native",
+  "name": "web-based",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,13 +8,13 @@
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
     "@wow/common": "1.0.0",
-    "react": "^16.8.4",
+    "react": "16.8.2",
     "react-art": "16.8.2",
-    "react-dom": "^16.8.4",
-    "react-native": "0.55.4",
+    "react-dom": "16.8.2",
+    "react-native": "0.59.0-rc.1",
     "react-native-web": "0.10.0",
     "react-scripts": "2.1.8",
-    "typescript": "3.3.3333"
+    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts start",
@@ -32,7 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@types/react-native": "^0.57.40",
+    "@types/react-native": "0.57.36",
     "cross-env": "^5.2.0"
   }
 }
